@@ -19,7 +19,7 @@ def switcher(value):
 
 def set_new_file():
 
-    wb = xl.load_workbook("./old/ff.xlsx")
+    wb = xl.load_workbook("./old/test.xlsx")
     sheet = wb["DATA"]
     rows = sheet.max_row
     columns = sheet.max_column
